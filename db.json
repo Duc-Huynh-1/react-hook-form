@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coffe 1",
+      "image": "https://picsum.photos/200/100",
+      "price": 100,
+      "desc": "haha"
+    },
+    {
+      "id": 2,
+      "name": "Coffe 2",
+      "image": "https://picsum.photos/200/100",
+      "price": 200,
+      "desc": "c2f2f"
+    },
+    {
+      "id": 3,
+      "name": "Coffe 3",
+      "image": "https://picsum.photos/200/100",
+      "price": 300,
+      "desc": "c3f3f"
+    },
+    {
+      "name": "coffe 4",
+      "image": "https://picsum.photos/200/100",
+      "price": "100",
+      "desc": "háhah",
+      "id": 4
+    },
+    {
+      "name": "coffe 5",
+      "image": "https://picsum.photos/200/100",
+      "price": "5000",
+      "desc": "okkkk",
+      "id": 5
+    },
+    {
+      "name": "Đức Huynh",
+      "price": "100",
+      "id": 6,
+      "image": "https://picsum.photos/200/100",
+      "desc": "haha"
+    }
+  ],
+  "users": [
+    {
+      "email": "huynhkendy2003@gmail.com",
+      "password": "$2a$10$eVKakXMACG2R2f.3TuA/TeR1Jsid2DXWfIU7Z9yaWdxC.T4UyO84i",
+      "username": "Duc Huynh",
+      "role": 1,
+      "id": 1
+    }
+  ],
+  "cart": []
+}
