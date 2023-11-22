@@ -33,8 +33,8 @@ export const Homepages= () => {
                 <Navhome />
                 <aside className='grid grid-cols-4 gap-5 '>
                     {products.map((item, index) => (
-                          <a href={`/products/${item.id}`}>
-                            <div key={index} className='text-center p-4 bg-white shadow-md mt-[10px] w-[230px]'>
+                          <a href={`/products/${item.id}`} key={index} >
+                            <div className='text-center p-4 bg-white shadow-md mt-[10px] w-[230px]'>
                                 <h1 className='text-[18px] font-medium'>{item.name}</h1>
                               
                                     <img src={item.image} alt={item.name} className='h-[280px] my-[10px]'/>
